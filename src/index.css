@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width:100% ;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Titulo */
+.title {
+    position: absolute;
+    top: 100px;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 2px #fff;
+ 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+
+}
+
+
+
+/* Frase */
+
+.container {
+    border: 5px solid yellow;
+    background-color: #fff;  /*Imagen*/
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  /*   gap: 50px; */
+    width: 400px;
+    padding: 40px;
+    font-size: 20px;
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px yellow;
+
+    
+}
+
+
+.parrafo{
+    align-self: end;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style:normal;
+    text-shadow: none;
+  
+}
+
+
+
+button {
+    position:absolute;
+    bottom: 100px;
+    color: black;
+    border: 0;
+    background-image: linear-gradient(150deg,yellow,#fff,yellow);
+    border-radius: 8px;
+    color: aliceblue;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor:pointer;
+    transition: 3s;
+}
+
+span {
+    background-color: #fff;
+    padding: 16px 50px;
+    border-radius: 10px;
+    transition: .3s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    color: black;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+
+}
+
+button:hover span {
+    background: none;
+
+}
+
+button:active{
+    transform: scale(0.9);
+
+}
+
+
+
+/* APP */
